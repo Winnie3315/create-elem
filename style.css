@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24 30 33);
+}
+
+img{
+    max-width: 100%;
+    height: 160px;
+    width: 288px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.itm{
+    width: 350px;
+    height: 450px;
+    border-radius: 19px;
+}
+.itmInfo{
+    background-color: rgb(42 46 53);
+}
+.itmInfo h3{
+    padding: 20px 0 20px 20px;
+    color: white;
+    font-size: 32px;
+}
+.itmInfo p{
+    padding: 20px 0 30px 20px;
+    color: rgb(99, 103, 110);
+}
+.itmInfo button{
+    margin: 20px 0 10px 20px;
+}
+.pro{
+    background-color: greenyellow;
+}
+.react{
+    background-color: #222;
+    color: #00d8ff;
+}
+.stripe{
+    background-color: #6675e0;
+    color: #fff;
+}
+.typescript{
+    background-color: #2775c3;
+    color: #fff;
+}
+.next{
+    background-color: #000000;
+    color: white;
+}
+.postgres{
+    background-color: rgb(0 0 0 / 30%);
+    color: rgb(178 190 205);
+}
+.svelte{
+    background-color: #ff3e00;
+    color: #fff;
+}
+.firebase{
+    background-color: #ffcb2b;
+    color: #12181a;
+}
+.supabase{
+    color: #3dce8c;
+}
+button{
+    background-color: rgb(0 0 0 / 30%);
+    border: 0;
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+}
